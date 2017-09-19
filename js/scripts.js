@@ -3,6 +3,9 @@ $(document).ready(function() {
     event.preventDefault();
     var blanks = ["person1", "person2", "animal", "exclamation", "verb", "noun"];
 
+
+    // forEach loop
+
     // blanks.forEach(function(blank) {
     //   var userInput = $("input#" + blank).val();
     //   $("." + blank).text(userInput);
@@ -10,6 +13,8 @@ $(document).ready(function() {
     // });
     // var userInput = $("input#" + blank).val();
 
+
+    // for Loop
 
     for (i=0; i <= blanks.length; i++){
       var userInput = $("input#" + blanks[i]).val();
